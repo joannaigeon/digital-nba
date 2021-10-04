@@ -13,8 +13,8 @@ const Home = () => {
         		        <div>
             				<h1>{message} les gens</h1>
             				<button onClick={() => setMessage('bonjour')}>bouh</button>
-        					</div>
-        				</div>
+    					</div>
+    				</div>
 	        		<div class="col-2"></div>
 	        	</div>
         	</div>
