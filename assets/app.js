@@ -7,6 +7,12 @@
 
 // any CSS you import will output into a single css file (app.css in this case)
 import './styles/app.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // start the Stimulus application
-import './bootstrap';
+// import './bootstrap';
+import React from 'react';
+import ReactDom from 'react-dom';
+import Home from './components/Home';
+
+ReactDom.render(<Home/>, document.getElementById('root'))
